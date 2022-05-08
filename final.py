@@ -14,6 +14,7 @@ import time
 
 cap = cv2.VideoCapture(0)
 leido, frame = cap.read()
+cap.set(3, 640)
 
 nombreFoto = "foto" + str(random.randint(1,1000)) + ".png"
 
