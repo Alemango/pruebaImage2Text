@@ -88,6 +88,8 @@ def getTextByImage():
 
     print("End of Computer Vision quickstart.")
 
+    return info
+
 def buscadorDeMedicamentos():
 
     os.environ['NO_PROXY'] = '127.0.0.1'
